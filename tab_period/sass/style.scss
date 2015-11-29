@@ -1,0 +1,41 @@
+@import "compass";
+
+@import "base";
+@import "layout";
+
+$violet:#A10684;
+$indigo:#791cf8;
+$blues:#00BFFF;
+$vert: #01D758;
+$jaune :#FCDC12;
+$orange: #ff7400;
+$rouge:#ED0000;
+
+.violet{
+	background-color: $violet;
+}
+.indigo{
+	background-color: $indigo;
+}
+.bleu{
+	background-color: $blues;
+}
+.vert{
+	background-color: $vert;
+}
+.jaune{
+	background-color: $jaune;
+}
+.orange{
+	background-color: $orange;
+}
+.rouge{
+	background-color: $rouge;
+}
+.blanc{
+	background-color: #fff;
+}
+.noir{
+	background-color: #222;
+	color: #fff;
+}

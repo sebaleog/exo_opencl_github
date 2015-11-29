@@ -1,0 +1,19 @@
+.container{
+	margin: 0px auto;
+	width: 1337px;
+	@include display-flex;
+  	@include flex-direction(row);
+}
+.flexbox{
+	float: left;
+	height: 400px;
+	width: 75px;
+	@include display-flex;
+    @include flex-direction(column-reverse);
+}
+#def{
+	margin: 15px auto;
+	height: 230px;
+	width: 450px;
+	background-color: #555;
+}
